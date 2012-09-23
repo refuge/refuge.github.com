@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>refuge.io - {{ page.title }}</title>
+    <meta name="description" content="refuge project website">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/refuge.css">
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+<body>
+  <div class="topbar" data-scrollspy="scrollspy" >
+    <div class="topbar-inner">
+      <div class="container">
+        <a class="brand" href="/#">Refuge project</a>
+        <ul class="nav">
+          <li class="active"><a href="/#">Home</a></li>
+          <li><a href="/#download">Download</a></li>
+          <li><a href="/#about">About</a></li>
+          <li class="dropdown" data-dropdown="dropdown">
+            <a href="/#help" class="dropdown-toggle">Help</a>
+            <ul class="dropdown-menu">
+              <li><a
+                href="https://github.com/refuge/refuge/wiki"
+                target="_blank">Wiki</a></li>
+              <li class="divider"></li>
+              <li><a href="/#ml">Mailing-List</a></li>
+              <li><a href="/#irc">Irc</a></li>
+              <li><a href="http://www.twitter.com/refugeio"
+                  target="_blank">@refugeio</a></li>
+            </ul>
+          </li>
+          <li><a href="/#dev">Get involved</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  {{ content }}
+  
+  <footer class="footer">
+    <div class="container">
+      <p class="pull-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>2011 &copy; The Refuge Project under the 
+        <a href="http://www.apache.org/licenses/LICENSE-2.0"
+          target="_blank">Apache License v2.0</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+<script src="/js/json2.js"></script> 
+<script src="/js/jquery-1.6.4.min.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tabs.js"></script>
+<script src="/js/bootstrap-twipsy.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/dates.js"></script>
+
+</html>
