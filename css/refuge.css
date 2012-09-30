@@ -23,6 +23,11 @@ section > .row {
 .footer p {
   color: #555;
 }
+pre {
+  /* comes from .pre-scrollable */
+  max-height: 340px;
+  overflow-y: scroll;
+}
 
 
 

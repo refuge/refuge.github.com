@@ -7,7 +7,7 @@ rcouchx is a macosx interface for rcouch. It's adapted couchdbx-app from
 Jan to rcouch, so it's now possible to administrate and distribute
 rcouch as an OSX app:
 
-![rcouchx screenshot](/images/say-hello-to-rcouchx/screenshot.png)
+![rcouchx screenshot](/img/say-hello-to-rcouchx/screenshot.png)
 
 You can download the binary on github:
 

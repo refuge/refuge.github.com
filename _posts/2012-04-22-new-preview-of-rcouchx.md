@@ -11,7 +11,7 @@ updated the rcouch source to generate a full DMG and distribute the
 rcouchx application;
 
 
-![rcouchx DMG screenshot](/images/new-preview-of-rcouchx/screenshot.png)
+![rcouchx DMG screenshot](/img/new-preview-of-rcouchx/screenshot.png)
 
 You can download the binary on github:
 
