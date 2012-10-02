@@ -1,20 +1,13 @@
 ---
-layout: default
+layout: blog_layout
 ---
-    <div class="container">
-      <section id="post">
-        <div class="row">
-          <div class="span10">
-            <div class="row">
-              <div class="span2">
-                <img src="/img/support.png" height="64" alt="Post">
-              </div>
-              <div class="span10">
-              {{ content }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <a href="/blog.html">Back</a>
+    <div class="page-header">
+      <h1>{{ page.title }}</h1>
+      <i class="icon-time"></i> <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+    </div>
+    {{ content }}
+    <div class="row">
+      <div class="offset5 span1">
+        <a class="btn" href="/blog.html">Back</a>
+      </div>
     </div>

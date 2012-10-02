@@ -1,21 +1,20 @@
 ---
-layout: default
+layout: blog_layout
 title: Latest posts
 ---
 
-<div class="container">
-  <section id="about">
     <div class="page-header">
       <h1>Latest News</h1>
     </div>
-    <div class="row">
+
+    {% for post in site.posts %}
+    <div class="row" style="margin-bottom: 20px;">
+      <div class="span2">
+        <img src="/img/support.png" alt="Post" />
+      </div>
       <div class="span10">
-          <ul class="posts">
-            {% for post in site.posts %}
-              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-            {% endfor %}
-          </ul>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        {{ post.content }}
       </div>
     </div>
-  </section>
-</div>        
+    {% endfor %}
