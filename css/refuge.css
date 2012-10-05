@@ -29,5 +29,11 @@ pre {
   overflow-y: scroll;
 }
 
+.feature {
+  margin-top: 5px;
+}
 
+footer {
+  margin-top: 30px;
+}
 
