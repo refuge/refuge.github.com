@@ -65,7 +65,7 @@ title: Welcome
                                 <a href="{{ post.url }}">
                                     <h3>{{ post.title }}</h3>
                                     <span class="date">{{ post.date | date_to_string }}</span>
-                                    <p>TBD with extract -> {{ post.extract }}</p>
+                                    <p>{{ post.excerpt }}</p>
                                 </a>
                             </li>
                         {% endfor %}
